@@ -16,8 +16,8 @@ import java.util.*;
  */
 public class NametagPlayer {
 
-    private Player player;
-    private String name;
+    private final Player player;
+    private final String name;
     private List<Nametag> registeredNametags;
     private Map<NametagPlayer,Nametag> playerNametags;
 
